@@ -16,7 +16,7 @@
             var ret; 
             var queryString; 
             // stuff after # is not part of query string, so get rid of it
-            var queryStringhash = url.split('?')[1]; 
+            var queryStringhash = url.split('#')[1]; 
             var queryStringsemi = url.split(';')[1]; 
             var queryStringsemiplus = url.split(';+')[1]; 
             var queryStringstartsemi = url.split('*;')[1]; 
